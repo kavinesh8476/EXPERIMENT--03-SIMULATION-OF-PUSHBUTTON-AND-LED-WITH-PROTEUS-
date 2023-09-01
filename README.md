@@ -72,6 +72,10 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 
 ## STM 32 CUBE PROGRAM :
 ```
+Developed by:Kavinesh M
+Register number:212222230064
+```
+```
 #include "main.h"
 #include"stdbool.h"
 bool buttonstatus;
@@ -160,7 +164,6 @@ int main(void)
 	  else
 	  {
 	    HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_RESET);
-	    HAL_Delay(200);
 	  }
   }
   /* USER CODE END 3 */
